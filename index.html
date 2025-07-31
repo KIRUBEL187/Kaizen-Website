@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaizen Family</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <div class="hero">
+    <h1 class="gold-glow">KAIZEN</h1>
+    <p class="tagline">Growing consistently with small steps together</p>
+    <a href="https://t.me/KaizenEmpireBot" class="telegram-btn">Join us on Telegram</a>
+  </div>
+
+  <section class="content-section" id="about">
+    <h2>About Us</h2>
+    <p>Kaizen Family is about growth, discipline, and financial freedom. We guide ambitious individuals to the top through skill, mindset, and leadership.</p>
+  </section>
+
+  <section class="content-section" id="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>💼 Business & Personal Mentorship</li>
+      <li>💸 Online Income Creation</li>
+      <li>📣 Training & Recruitment Events</li>
+      <li>🔥 Elite, High-Ambition Community</li>
+    </ul>
+  </section>
+
+  <section class="content-section" id="news">
+    <h2>Milestones</h2>
+    <p>$110,000+ in Sales • 10+ Team Trainees • 400+ Members</p>
+  </section>
+
+  <section class="content-section" id="contact">
+    <h2>Contact</h2>
+    <p>📞 0980114265</p>
+    <p>📍 Megenagna, Lion International Building</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kaizen Family. All rights reserved.</p>
+  </footer>
+
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.from(".content-section", {
+      scrollTrigger: ".content-section",
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      stagger: 0.3
+    });
+  </script>
+</body>
+</html>
