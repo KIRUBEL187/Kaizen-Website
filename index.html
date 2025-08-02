@@ -1,48 +1,93 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kaizen Empire</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaizen Empire</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>⚜️ Kaizen Empire</h1>
-        <p class="tagline">Growing consistently with small steps together</p>
-    </header>
-    <section class="section vision">
-        <h2>📈 Kaizen</h2>
-        <p>Meaning: Consistent Growth</p>
-        <p>🧠 Vision: Help people unleash their potential and grow financially by improving their habits</p>
-        <p>👁️ Goal: Create 50 MLM Core Organizations by 2030</p>
-        <p>🕰️ Founded: 2022 by leader Kirubel Tadesse</p>
+  <header class="hero">
+    <h1>⚜️ Kaizen Empire</h1>
+    <p class="tagline">Growing consistently with small steps together</p>
+    <button id="toggle-mode">🌙 Toggle Mode</button>
+  </header>
+
+  <main id="mountain-carousel">
+    <section class="mountain-slide" data-title="Vision & Mission">
+      <h2>🧠 Vision & Mission</h2>
+      <p>📈 Kaizen = Continuous improvement</p>
+      <p>Vision: Help people unlock potential and grow financially by improving habits</p>
+      <p>Goal: 50 MLM Core Organizations by 2030</p>
+      <p>Founded: 2022 by Kirubel Tadesse</p>
     </section>
-    <section class="section achievements">
-        <h2>🏆 Achievements</h2>
-        <ul>
-            <li>$110,000+ in sales</li>
-            <li>10+ team trainees</li>
-            <li>400+ total team members</li>
-        </ul>
+
+    <section class="mountain-slide" data-title="Achievements">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>$110,000+ in sales</li>
+        <li>10+ team trainees</li>
+        <li>400+ total team members</li>
+      </ul>
     </section>
-    <section class="section services">
-        <h2>💼 What We Offer</h2>
-        <ul>
-            <li>Mentorship in personal & business growth</li>
-            <li>Online income opportunities</li>
-            <li>Recruitment & educational events</li>
-            <li>A community of highly skilled, ambitious people</li>
-        </ul>
+
+    <section class="mountain-slide" data-title="What We Offer">
+      <h2>💼 What We Offer</h2>
+      <ul>
+        <li>Mindset & Habits Training</li>
+        <li>Online Business & Digital Income Pathways</li>
+        <li>Mentorship from Proven Leaders</li>
+        <li>Goal-Oriented Team Events</li>
+        <li>Team Leadership Training Systems</li>
+        <li>Private Telegram Community</li>
+      </ul>
     </section>
-    <section class="section contact">
-        <h2>📞 Contact</h2>
-        <p>Phone: 0980114265</p>
-        <p>Address: Megenagna, Lion International Building</p>
-        <a class="telegram-button" href="https://t.me/KaizenEmpireBot" target="_blank">📩 Message us on Telegram</a>
+
+    <section class="mountain-slide" data-title="Operations">
+      <h2>🔄 Operations</h2>
+      <ul>
+        <li>Daily Live Orientations via Telegram & Zoom</li>
+        <li>Weekly Business Presentations</li>
+        <li>Recognition Nights</li>
+        <li>Basic Trainings</li>
+        <li>Private Group Mentorship Calls</li>
+        <li>Monthly Kaizen Summits</li>
+      </ul>
     </section>
-    <footer>
-        <p>⚜️ Discipline • Consistency • Growth • Respect • Brotherhood ⚜️</p>
-    </footer>
+
+    <section class="mountain-slide" data-title="Testimonial">
+      <h2>🎤 Transformation Story</h2>
+      <p>“I was just an employee… tired, limited, stuck. I found Kaizen Empire — and everything changed.”</p>
+      <iframe width="100%" height="200" src="https://www.youtube.com/embed/sn67HhCmXHk" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="mountain-slide" data-title="Join Now">
+      <h2>✍️ Join Now</h2>
+      <form id="join-form">
+        <input type="text" name="name" placeholder="Full Name" required/>
+        <input type="tel" name="phone" placeholder="Phone Number" required/>
+        <input type="text" name="telegram" placeholder="Telegram Username" required/>
+        <button type="submit">Join</button>
+      </form>
+    </section>
+
+    <section class="mountain-slide" data-title="Contact">
+      <h2>📞 Contact</h2>
+      <p>Phone: 0980114265</p>
+      <p>Address: Megenagna, Lion International Building</p>
+      <a href="https://t.me/KaizenEmpireBot" target="_blank">Message us on Telegram</a>
+    </section>
+
+    <section class="mountain-slide" data-title="Values">
+      <h2>⚜️ Our Values</h2>
+      <p>Discipline • Consistency • Growth • Respect • Brotherhood</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Kaizen Empire. All rights reserved.</p>
+  </footer>
 </body>
 </html>
