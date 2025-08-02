@@ -1,8 +1,48 @@
 
 body {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
     color: gold;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 20px;
+}
+
+header, section, footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: gold;
+}
+
+.telegram-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.telegram-button:hover {
+    background: #ffd700;
+}
+
+footer {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    opacity: 0.7;
 }
